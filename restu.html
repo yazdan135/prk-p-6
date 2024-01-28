@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E Project</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<link rel="stylesheet" href="restu.css">
+ 
+<!-- animition stylesheet -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
+  <!-- Icon Font Stylesheet -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+<body>
+    
+<!-- start navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top boder-buttom mb-5">
+    <div class="container-fluid">
+      <img src="Orange Black Hummingbird Tech Digital Bird Logo.png" alt="" width="50" height="70px" class="d-inline-block align-text-top"> <p class="logop"> enasburg </p>
+      <p class="fs-3 mt-3">PARK</p>      <!-- <a class="navbar-brand" href="#"><span class="text-warning fs-3">Keansburg</span>park</a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav ms-auto my-2 my-lg-0  me-5 fs-5 text-center" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+
+            <!-- Home -->
+            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+          </li>
+          <!-- About us -->
+          <li class="nav-item">
+            <a class="nav-link active" href="About.html">About us</a>
+          </li>
+          <!-- Restaurants -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="restu.html">Restaurants</a>
+          </li>
+          <li class="nav-item dropdown">
+
+
+            <!-- group parties -->
+
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Zoons
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="beach.html">Beach</a></li>
+              <li><a class="dropdown-item" href="ranway.html">Runaway Rapids</a></li>
+              <li><a class="dropdown-item" href="home.html">Keansburg Park</a></li>
+  
+              <!-- <li><hr class="dropdown-divider"></li> -->
+            </ul>
+          </li>
+
+          <!-- GALLERY -->
+          <li class="nav-item">
+            <a class="nav-link active" href="Gallery.html">Gallery</a>
+       </li>
+             <!-- Contact us -->
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+       <!-- <button id="login" class="btn btn-primary ms-3 "><a href="LOGIN.HTML" class="text-white">Login </a></button> -->
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+      
+
+
+<div id="carouselExampleCaptions" class="carousel slide mt-5" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="pexels-ksenia-chernaya-4450334.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption">
+        <h5 class="head1  animated fadeInDown " style="animation-delay: 1s;">Restaurants & Eateries</h5>
+        <p class="animated fadeInUp" style="animation-delay: 3s;" ><a href="#" class="btn btn-warning mt-3">Booking Now</a></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="pexels-quark-studio-3201920.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption">
+          <h5 class="head1 animated fadeInDown " style="animation-delay: 1s;">Restaurants & Eateries</h5>
+          <p class="animated fadeInUp" style="animation-delay: 3s;" ><a href="#" class="btn btn-warning mt-3">Booking Now</a></p>
+
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="pexels-mat-brown-1395964.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption">
+          <h5 class="head1 animated fadeInDown " style="animation-delay: 1s;">Restaurants & Eateries</h5>
+          <p  class="animated fadeInUp" style="animation-delay: 3s;" ><a href="#" class="btn btn-warning mt-3">Booking Now</a></p>
+
+
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+      </div>
+<!-- Service Start -->
+<div class="container-xxl py-5 ">
+    <div class="container pt-5"  style="margin-top: 5%;">
+        <div class="row g-4">
+            <div class="col-lg-3 col-sm-6 mt-4 animated fadeInUp" style="animation-delay: 0.1s;">
+                <div class="service-item rounded pt-3">
+                    <div class="p-4">
+                        <i class="fa fa-3x fa-user-tie text-danger mb-4"></i>
+                        <h5>Master Chefs</h5>
+                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 animated fadeInUp  mt-4 my-4" style="animation-delay: 0.3s; margin-top: 50px;">
+                <div class="service-item rounded pt-3">
+                    <div class="p-4">
+                        <i class="fa fa-3x fa-utensils text-danger mb-4"></i>
+                        <h5>Quality Food</h5>
+                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mt-4  animated fadeInUp my-4" style="animation-delay: 0.5s; margin-top: 20px;">
+                <div class="service-item rounded pt-3">
+                    <div class="p-4">
+                        <i class="fa fa-3x fa-cart-plus text-danger mb-4"></i>
+                        <h5>Online Order</h5>
+                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 animated fadeInUp my-4" style="animation-delay: 0.6s;">
+                <div class="service-item rounded pt-3">
+                    <div class="p-4">
+                        <i class="fa fa-3x fa-headset text-danger mb-4"></i>
+                        <h5>24/7 Service</h5>
+                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+   <!-- About Start -->
+   <div class="container-xxl py-5">
+    <div class="container-card">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6">
+                <div class="row g-3">
+                    <div class="inner col-6 text-start">
+                        <img class="img-fluid rounded w-100  animated fadeInLeft" style="animation-delay: 0.2s;" src="res1.jpg">
+                    </div>
+                    <div class="inner col-6 text-start">
+                        <img class="img-fluid rounded w-100 animated fadeInLeft" style="animation-delay: 0.3s;" src="res2.jpg" style="margin-top: 25%;">
+                    </div>
+                    <div class="inner col-6 text-end">
+                        <img class="img-fluid rounded w-80 animated fadeInLeft" style="animation-delay: 0.5s;" src="res3.jfif">
+                    </div>
+                    <div class="inner col-6 text-end">
+                        <img class="img-fluid rounded w-80 animated fadeInLeft" style="animation-delay: 0.6s;" src="res4.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h5 class="section-title ff-secondary text-start text-primary fw-normal animated fadeInRight" style="animation-delay: 0.1s;">About Us</h5>
+                <h1 class="mb-4 animated fadeInRight" style="animation-delay: 0.2s;" >Welcome to <i class="fa fa-utensils text-danger me-2 animated fadeInRight" style="animation-delay: 0.2s;"></i>Restoran</h1>
+                <p class="mb-4 animated fadeInRight" style="animation-delay: 0.2s;">"At Keansburg Park's culinary gem, we blend the serenity of the park with the vibrancy of exceptional dining. Nestled within this picturesque setting, our restaurant invites you to savor a unique fusion of flavors amidst nature's embrace</p>
+                <p class="mb-4 animated fadeInRight" style="animation-delay: 0.2s;">At our restaurant, we blend the freshest seasonal produce with innovative culinary techniques to offer a menu that tantalizes the taste buds of locals and visitors alike. Whether you're here for a leisurely brunch, a family gathering, or a romantic dinner, each dish is a celebration of Keansburg Park's beauty and our dedication to delivering exceptional flavors. Join us and savor not just the food, but the harmony between nature's splendor and gastronomic excellence."</p>
+                <div class="row g-4 mb-4">
+                    <div class="col-sm-6">
+                        <div class="d-flex align-items-center border-start border-5 border-danger px-3">
+                            <h1 class="flex-shrink-0 display-5 text-primary mb-0 text-danger animated fadeInRight" style="animation-delay: 0.3s;">15</h1>
+                            <div class="ps-4">
+                                <p class="mb-0 animated fadeInRight" style="animation-delay: 0.3s;">Years of</p>
+                                <h6 class="text-uppercase mb-0 animated fadeInRight" style="animation-delay: 0.3s;">Experience</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="d-flex align-items-center border-start border-5 border-danger px-3 ">
+                            <h1 class="flex-shrink-0 display-5 text-danger mb-0 animated fadeInRight" style="animation-delay: 0.2s;">50</h1>
+                            <div class="ps-4">
+                                <p class="mb-0  animated fadeInRight" style="animation-delay: 0.3s;">Popular</p>
+                                <h6 class="text-uppercase mb-0  animated fadeInRight" style="animation-delay: 0.3s;">Master Chefs</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="btn btn-danger py-3 px-5 mt-2  animated fadeInRight" style="animation-delay: 0.3s;" href="">Read More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+
+<!-- deshis card start -->
+<div  class="container mt-3">
+  <div class="row gy-5 my-4">
+    <h1 class="text-center display-1">Most Popular Items</h1>
+     <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card-dishes border" >
+        <div class="inner1">
+        <img src="zinger.jfif" class="card-img-top" alt="..." style="height: 250px;">
+      </div>
+        <div class="card-body ">
+          <h2 class="card-title text-center fs-4  mt-1">Zinger Burger</h2>
+         <h4 class="text-info">12$</h4>
+        <a href="#" class="btn btn-danger d-block">By Now</a>
+        </div>
+          
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card-dishes border" >
+        <div class="inner1">
+        <img src="tander.jpg" class="card-img-top" alt="..." style="height: 250px;">
+      </div>
+        <div class="card-body ">
+          <h2 class="card-title text-center fs-4  mt-1">Tander fishh</h2>
+         <h4 class="text-info">27$</h4>
+        <a href="#" class="btn btn-danger d-block">By Now</a>
+        </div>
+          
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card-dishes border" >
+        <div class="inner1">
+        <img src="Chicken-Shawarma.jpg" class="card-img-top" alt="..." style="height: 250px;">
+      </div>
+        <div class="card-body ">
+          <h2 class="card-title text-center fs-4  mt-1">Chicken Shawarma</h2>
+         <h4 class="text-info">21$</h4>
+        <a href="#" class="btn btn-danger d-block">By Now</a>
+        </div>
+          
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card-dishes border" >
+        <div class="inner1">
+        <img src="chaow mein.jpg" class="card-img-top" alt="..." style="height: 250px;">
+      </div>
+        <div class="card-body ">
+          <h2 class="card-title text-center fs-4  mt-1">chow mein</h2>
+         <h4 class="text-info">22$</h4>
+        <a href="#" class="btn btn-danger d-block">By Now</a>
+        </div>
+          
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card-dishes border" >
+        <div class="inner1">
+        <img src="Shrimp-Pasta-2.jpg" class="card-img-top" alt="..." style="height: 250px;">
+      </div>
+        <div class="card-body ">
+          <h2 class="card-title text-center fs-4 mt-1">shirmp pasta</h2>
+         <h4 class="text-info">25$</h4>
+        <a href="#" class="btn btn-danger d-block">By Now</a>
+        </div>
+          
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card-dishes border" >
+        <div class="inner1">
+        <img src="chocolate-ice-cream.jpg" class="card-img-top" alt="..." style="height: 250px;">
+      </div>
+        <div class="card-body ">
+          <h2 class="card-title text-center fs-4  mt-1">chocolate ice cream</h2>
+         <h4 class="text-info">20$</h4>
+        <a href="#" class="btn btn-danger d-block">By Now</a>
+        </div>
+          
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card-dishes border" >
+        <div class="inner1">
+        <img src="vanila.webp" class="card-img-top" alt="..." style="height: 250px;">
+      </div>
+        <div class="card-body ">
+          <h2 class="card-title text-center fs-4  mt-1">vanila ice cream</h2>
+         <h4 class="text-info">13$</h4>
+        <a href="#" class="btn btn-danger d-block">By Now</a>
+        </div>
+          
+      </div>
+    </div>
+
+   
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card-dishes border" >
+        <div class="inner1">
+        <img src="strawberry-ice-cream-.jpg" class="card-img-top" alt="..." style="height: 250px;">
+      </div>
+        <div class="card-body ">
+          <h2 class="card-title text-center fs-4  mt-1">strawberry-ice-cream</h2>
+         <h4 class="text-info">18$</h4>
+        <a href="#" class="btn btn-danger d-block">By Now</a>
+        </div>
+          
+      </div>
+    </div>
+
+
+
+  </div>
+</div> 
+
+
+
+<!-- Team Start -->
+<div class="container-xxl pt-5 pb-3">
+  <div class="container">
+      <div class="text-center ">
+          <h5 class="section-title  text-center text-primary animated fadeInUp" style="transition-delay: 1s;">Team Members</h5>
+          <h1 class="mb-5  animated fadeInUp" style="transition-delay: 1s;">Our Master Chefs</h1>
+      </div>
+      <div class="row">
+          <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
+              <div class="team-item text-center border  animated fadeInLeft" style="transition-delay: 2s;">
+                  <div class="rounded-circle overflow-hidden m-4">
+                      <img class="img-fluid img-center" src="chef2.avif" alt="">
+                  </div>
+                  <h5 class="mb-0">Mark Albert</h5>
+                 
+                  <div class="d-flex justify-content-center mt-3 pb-3">
+                      <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                      <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                      <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 mt-5 ">
+            <div class="team-item text-center border  animated fadeInLeft" style="transition-delay: 3s;">
+                <div class="rounded-circle overflow-hidden m-4">
+                    <img class="img-fluid img-center" src="chef3.jpg" alt="">
+                </div>
+                <h5 class="mb-0">Maria stullen</h5>
+               
+                <div class="d-flex justify-content-center mt-3 pb-3">
+                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 mt-5 ">
+          <div class="team-item text-center border  animated fadeInRight" style="transition-delay: 4s;">
+              <div class="rounded-circle overflow-hidden m-4">
+                  <img class="img-fluid img-center" src="chef4.jpg" alt="">
+              </div>
+              <h5 class="mb-0">James Parker</h5>
+             
+              <div class="d-flex justify-content-center mt-3 pb-3">
+                  <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                  <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                  <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+              </div>
+          </div>
+      </div>
+       <div class="col-sm-6 col-md-4 col-lg-3  mt-5" >
+        <div class="team-item text-center border  animated fadeInRight" style="transition-delay: 5s;">
+            <div class="rounded-circle overflow-hidden m-4">
+                <img class="img-fluid img-center mt-4" src="chef5.jpg" alt="">
+            </div>
+            <h5 class="mb-0">sara </h5>
+           
+            <div class="d-flex justify-content-center mt-3 pb-3">
+                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+      </div>
+  </div>
+</div>
+<!-- Team End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer Start    that is full responsive footer with btn link and social links -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 ">
+      <div class="container py-6" >
+       <div class="row g-5">
+     <div class="col-lg-3 col-md-6">
+      <h4 class="section-title text-info fs-3 fw-normal mb-5 text-center" >KEANSBURG  PARK</h4>
+      
+     
+      <p class="fs-">An Keansburg park is a park that features various attractions, such as rides and games, as well as other events for entertainment purposes. A theme park is a type of Keansburg park that bases its structures and attractions around a central theme, often featuring multiple areas with different themes.</p>
+     </div>
+     <div class="col-lg-3 col-md-6">
+       <h4 class="section-title ff-secondary text-info fw-normal mb-5 fs-2 text-uppercase text-center">Usefull Links</h4>
+       <a class="btn btn-link" href="home.html">HOME</a>
+       <a class="btn btn-link fs-5" href="About.html">About us</a>
+       <a class="btn btn-link fs-5" href="ranway.html">Zoons</a>
+       <a class="btn btn-link fs-5" href="restu.html">Restaurant</a>
+       <a class="btn btn-link fs-5" href="Gallery.html">Gallery</a>
+       <a class="btn btn-link fs-5" href="contact.html">Contact Us</a>
+     
+      </div>
+       
+      <div class="col-lg-3 col-md-6">
+     <h4 class="section-title ff-secondary  text-info fw-normal mb-5 text-uppercase fs-3 text-center">Contact</h4>
+     <p class="mb-2 text-center"><i class="fa fa-map-marker-alt me-3 py-3"></i>123 Street, New York, USA</p>
+     <p class="mb-2 text-center"><i class="fa fa-phone-alt me-3 py-3"></i>03122435996</p>
+     <p class="mb-2 text-center"><i class="fa fa-phone-alt me-3 py-3"></i>03122435996</p>
+       
+     <p class="mb-2 text-center"><i class="fa fa-envelope me-3 py-3"></i>siddiqui.hadi0104@gmail.com</p>
+     <p class="mb-2 text-center"><i class="fa fa-envelope me-3 py-3"></i>anasashraf9981@gmail.com</p>
+       
+     
+       </div>
+       
+     <div  class="col-lg-3 col-md-6">
+      <h4 class="section-title ff-secondary text-info fw-normal mb-5 fs-2 text-uppercase text-center">follow us</h4>
+     
+      <div class="d-flex pt-2 text-center">
+     <a class="btn btn-outline-light btn-social " href=""><i class="fab fa-instagram"></i></a>
+     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-telegram"></i></a>
+      
+       </div>
+     </div>
+     <p class="footer-company-name text-center">Copyright © 2023 <strong>Keansburg Park</strong> all rights reserved</p>
+     </div>
+       </div>
+     </div>
+     <div class="container">
+      <div class="copyright">
+     <div class="row">
+     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+      </div>
+       </div>
+     </div>
+     </div>
+     </div>
+       <!-- Footer End -->
+
+
+
+</body>
+</html>

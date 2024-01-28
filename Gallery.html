@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Filter Product</title>
+	<link rel="stylesheet" type="text/css" href="fontawesome-5/fontawesome-css/all.css">
+	
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="Gallery.css"> 
+ 
+    <!-- animition stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" 
+     />
+      <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    
+    
+    
+
+</head>
+<body>
+<!-- start navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top boder-buttom mb-5">
+  <div class="container-fluid">
+    <img src="Orange Black Hummingbird Tech Digital Bird Logo.png" alt="" width="50" height="70px" class="d-inline-block align-text-top"> <p class="logop"> enasburg </p>
+    <p class="fs-3 mt-3">PARK</p>    <!-- <a class="navbar-brand" href="#"><span class="text-warning fs-3">Keansburg</span>park</a> -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav ms-auto my-2 my-lg-0  me-5 fs-5 text-center" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+
+          <!-- Home -->
+          <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+        </li>
+        <!-- About us -->
+        <li class="nav-item">
+          <a class="nav-link active" href="About.html">About us</a>
+        </li>
+        <!-- Restaurants -->
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="restu.html">Restaurants</a>
+        </li>
+        <li class="nav-item dropdown">
+
+
+          <!-- group parties -->
+		  <a class="nav-link dropdown-toggle active" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+			Zoon
+			 </a>
+			 <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+			   <li><a class="dropdown-item" href="beach.html">Beach</a></li>
+			   <li><a class="dropdown-item" href="runaway rapid .html">Runaway Rapids</a></li>
+			   <li><a class="dropdown-item" href="home.html">Keansburg Park</a></li>
+            <!-- <li><hr class="dropdown-divider"></li> -->
+          </ul>
+        </li>
+
+        <!-- GALLERY -->
+        <li class="nav-item">
+          <a class="nav-link active" href="Gallery.html">Gallery</a>
+     </li>
+           <!-- Contact us -->
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact</a>
+
+          
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+<!-- navbar end -->
+
+
+	<main>
+		<header class="pk">
+			<ul class="indicator">
+				<li data-filter="all" class="active"><a href="#">All</a></li>
+				<li data-filter="RIDES MTWTF"><a href="#">weekday</a></li>
+				<li data-filter="RIDES SS"><a href="#">weekend</a></li>
+				
+			</ul>
+			<div class="filter-condition">
+				<span>View As a</span>
+				<select name="" id="select">
+					<option value="Default">Default</option>
+					<option value="LowToHigh">Low to high</option>
+					<option value="HighToLow">High to low</option>
+				</select>
+			</div>
+		</header>
+		<div class="product-field">
+			<ul class="items">
+				
+				<li data-category="" data-price="">
+					<picture>
+						<img src="LOOPIN STAR.jpeg" alt="" style="background-size: cover;">
+					</picture>
+					<div class="detail">
+						<p class="icon">
+						   <span><i class="far fa-heart"></i></span>
+						   <span><i class="far fa-share-square"></i></span>
+						   
+						</p>
+						<strong>RIDES MTWTF</strong>
+						<span>Loopin Star</span>
+						<small>Buy now</small>
+					</div>
+					<h4>$45.78</h4>
+				</li>
+				<li data-category="" data-price="">
+					<picture>
+						<img src="LOOPIN STAR.jpeg" alt="">
+					</picture>
+					<div class="detail">
+						<p class="icon">
+						   <span><i class="far fa-heart"></i></span>
+						   <span><i class="far fa-share-square"></i></span>
+						  
+						</p>
+						<strong>RIDES SS</strong>
+						<span>Loopin Star</span>
+						<small>Buy now</small>
+					</div>
+					<h4>$55.78</h4>
+				</li>
+				<li data-category="" data-price="">
+					<picture>
+						<img src="Bumper_boats.jpg" alt="">
+					</picture>
+					<div class="detail">
+						<p class="icon">
+						   <span><i class="far fa-heart"></i></span>
+						   <span><i class="far fa-share-square"></i></span>
+						   
+						</p>
+						<strong>RIDES MTWTF</strong>
+						<span>Bumper Boats</span>
+						<small>Buy now</small>
+					</div>
+					<h4>$40.78</h4>
+				</li>
+				<li data-category="" data-price="">
+					<picture>
+						<img src="Bumper_boats.jpg" alt="">
+					</picture>
+					<div class="detail">
+						<p class="icon">
+						   <span><i class="far fa-heart"></i></span>
+						   <span><i class="far fa-share-square"></i></span>
+						   
+						</p>
+						<strong>RIDES SS</strong>
+						<span>Bumper Boats</span>
+						<small>Buy now</small>
+					</div>
+					<h4>$42.78</h4>
+				</li>
+				
+				<li data-category="" data-price="">
+					<picture>
+						<img src="froghopper.jpg" alt="">
+					</picture>
+					<div class="detail">
+						<p class="icon">
+						   <span><i class="far fa-heart"></i></span>
+						   <span><i class="far fa-share-square"></i></span>
+						   
+						</p>
+						<strong>RIDES MTWTF</strong>
+						<span>Froghopper</span>
+						<small>Buy now</small>
+					</div>
+					<h4>$46.78</h4>
+				</li>
+				<li data-category="" data-price="">
+					<picture>
+						<img src="froghopper.jpg" alt="">
+					</picture>
+					<div class="detail">
+						<p class="icon">
+						   <span><i class="far fa-heart"></i></span>
+						   <span><i class="far fa-share-square"></i></span>
+						   
+						</p>
+						<strong>RIDES SS</strong>
+						<span>Froghopper</span>
+						<small>Buy now</small>
+					</div>
+					<h4>$55.78</h4>
+				</li>
+				<li data-category="" data-price="">
+					<picture>
+						<img src="Jump Around.webp" alt="">
+					</picture>
+					<div class="detail">
+						<p class="icon">
+						   <span><i class="far fa-heart"></i></span>
+						   <span><i class="far fa-share-square"></i></span>
+						   
+						</p>
+						<strong>RIDES MTWTF</strong>
+						<span>Jump Around</span>
+						<small>Buy now</small>
+					</div>
+					<h4>$25.78</h4>
+				</li>
+				<li data-category="" data-price="">
+					<picture>
+						<img src="Jump Around.webp" alt="">
+					</picture>
+					<div class="detail">
+						<p class="icon">
+						   <span><i class="far fa-heart"></i></span>
+						   <span><i class="far fa-share-square"></i></span>
+						 
+						</p>
+						<strong>RIDES SS</strong>
+						<span>Jump Around</span>
+						<small>Buy now</small>
+					</div>
+					<h4>$30.78</h4>
+				</li>
+				<li data-category="" data-price="">
+					<picture>
+						<img src="Wave Swinger.jpg" alt="">
+					</picture>
+					<div class="detail">
+						<p class="icon">
+						   <span><i class="far fa-heart"></i></span>
+						   <span><i class="far fa-share-square"></i></span>
+						  
+						</p>
+						<strong>RIDES MTWTF</strong>
+						<span>Wave Swinger</span>
+						<small>Buy now</small>
+					</div>
+					<h4>$35.78</h4>
+				</li>
+				<li data-category="" data-price="">
+					<picture>
+						<img src="Wave Swinger.jpg" alt="">
+					</picture>
+					<div class="detail">
+						<p class="icon">
+						   <span><i class="far fa-heart"></i></span>
+						   <span><i class="far fa-share-square"></i></span>
+						   
+						</p>
+						<strong>RIDES SS</strong>
+						<span>Wave Swinger</span>
+						<small>Buy now</small>
+					</div>
+					<h4>$42.78</h4>
+				</li>
+				<li data-category="" data-price="">
+					<picture>
+						<img src="Moby Dick.jpg" alt="">
+					</picture>
+					<div class="detail">
+						<p class="icon">
+						   <span><i class="far fa-heart"></i></span>
+						   <span><i class="far fa-share-square"></i></span>
+						  
+						</p>
+						<strong>RIDES MTWTF</strong>
+						<span>Moby Dick</span>
+						<small>Buy now</small>
+					</div>
+					<h4>$33.78</h4>
+				</li>
+				<li data-category="" data-price="">
+					<picture>
+						<img src="Moby Dick.jpg" alt="">
+					</picture>
+					<div class="detail">
+						<p class="icon">
+						   <span><i class="far fa-heart"></i></span>
+						   <span><i class="far fa-share-square"></i></span>
+						   
+						</p>
+						<strong>RIDES SS</strong>
+						<span>Moby Dick</span>
+						<small>Buy now</small>
+					</div>
+					<h4>$44.78</h4>
+				</li>
+				<li data-category="" data-price="">
+					<picture>
+						<img src="Sea Serpent Roller Coaster.webp" alt="">
+					</picture>
+					<div class="detail">
+						<p class="icon">
+						   <span><i class="far fa-heart"></i></span>
+						   <span><i class="far fa-share-square"></i></span>
+						   
+						</p>
+						<strong>RIDES MTWTF</strong>
+						<span>Serpent Roller Coaster</span>
+						<small>Buy now</small>
+					</div>
+					<h4>$30.78</h4>
+				</li>
+				<li data-category="" data-price="">
+					<picture>
+						<img src="Sea Serpent Roller Coaster.webp" alt="">
+					</picture>
+					<div class="detail">
+						<p class="icon">
+						   <span><i class="far fa-heart"></i></span>
+						   <span><i class="far fa-share-square"></i></span>
+						   
+						</p>
+						<strong>RIDES SS</strong>
+						<span>Serpent Roller Coaster</span>
+						<small>Buy now</small>
+					</div>
+					<h4>$40.78</h4>
+				</li>
+				<li data-category="" data-price="">
+					<picture>
+						<img src="Pharaoh’s Fury.jpg" alt="">
+					</picture>
+					<div class="detail">
+						<p class="icon">
+						   <span><i class="far fa-heart"></i></span>
+						   <span><i class="far fa-share-square"></i></span>
+						   
+						</p>
+						<strong>RIDES MTWTF</strong>
+						<span>Pharaoh’s Fury</span>
+						<small>Buy now</small>
+					</div>
+					<h4>$34.78</h4>
+				</li>
+				<li data-category="" data-price="">
+					<picture>
+						<img src="Pharaoh’s Fury.jpg" alt="">
+					</picture>
+					<div class="detail">
+						<p class="icon">
+						   <span><i class="far fa-heart"></i></span>
+						   <span><i class="far fa-share-square"></i></span>
+						   
+						</p>
+						<strong>RIDES SS</strong>
+						<span>Pharaoh’s Fury</span>
+						<small>Buy now</small>
+					</div>
+					<h4>$44.78</h4>
+				</li>
+				<li data-category="" data-price="">
+					<picture>
+						<img src="Fire Engine.jpg" alt="">
+					</picture>
+					<div class="detail">
+						<p class="icon">
+						   <span><i class="far fa-heart"></i></span>
+						   <span><i class="far fa-share-square"></i></span>
+						   
+						</p>
+						<strong>RIDES MTWTF</strong>
+						<span>Fire Engine</span>
+						<small>Buy now</small>
+					</div>
+					<h4>$14.78</h4>
+				</li>
+				<li data-category="" data-price="">
+					<picture>
+						<img src="Fire Engine.jpg" alt="">
+					</picture>
+					<div class="detail">
+						<p class="icon">
+						   <span><i class="far fa-heart"></i></span>
+						   <span><i class="far fa-share-square"></i></span>
+						   
+						</p>
+						<strong>RIDES SS</strong>
+						<span>Fire Engine</span>
+						<small>Buy now</small>
+					</div>
+					<h4>$24.78</h4>
+				</li>
+				<li data-category="" data-price="">
+					<picture>
+						<img src="bum2.jpg" alt="">
+					</picture>
+					<div class="detail">
+						<p class="icon">
+						   <span><i class="far fa-heart"></i></span>
+						   <span><i class="far fa-share-square"></i></span>
+						   
+						</p>
+						<strong>RIDES MTWTF</strong>
+						<span>Dodging Car</span>
+						<small>Buy now</small>
+					</div>
+					<h4>$39.78</h4>
+				</li>
+				<li data-category="" data-price="">
+					<picture>
+						<img src="bum2.jpg" alt="">
+					</picture>
+					<div class="detail">
+						<p class="icon">
+						   <span><i class="far fa-heart"></i></span>
+						   <span><i class="far fa-share-square"></i></span>
+						   
+						</p>
+						<strong>RIDES SS</strong>
+						<span>Dodging Car</span>
+						<small>Buy now</small>
+					</div>
+					<h4>$24.78</h4>
+				</li>
+			</ul>
+		</div>
+	</main>
+	
+
+
+	
+    <!-- Footer Start    that is full responsive footer with btn link and social links -->
+	<div class="container-fluid bg-dark text-light footer pt-5 mt-5 ">
+		<div class="container py-6" >
+		 <div class="row g-5">
+	   <div class="col-lg-3 col-md-6">
+		<h4 class="section-title  text-start text-info fs-3 fw-normal mb-5 text-center" >KEANSBURG  PARK</h4>
+		
+	   
+		<p class="fs-">An Keansburg park is a park that features various attractions, such as rides and games, as well as other events for entertainment purposes. A theme park is a type of Keansburg park that bases its structures and attractions around a central theme, often featuring multiple areas with different themes.</p>
+	   </div>
+	   <div class="col-lg-3 col-md-6">
+		 <h4 class="section-title ff-secondary text-start  text-info fw-normal mb-5 fs-2 text-uppercase text-center">Usefull Links</h4>
+		 <a class="btn btn-link" href="home.html">HOME</a>
+		 <a class="btn btn-link fs-5" href="About.html">About us</a>
+		 <a class="btn btn-link fs-5" href="ranway.html">Zoons</a>
+		 <a class="btn btn-link fs-5" href="restu.html">Restaurant</a>
+		 <a class="btn btn-link fs-5" href="Gallery.html">Gallery</a>
+		 <a class="btn btn-link fs-5" href="contact.html">Contact Us</a>
+	   
+		</div>
+		 
+		<div class="col-lg-3 col-md-6">
+	   <h4 class="section-title ff-secondary text-start  text-info fw-normal mb-5 text-uppercase fs-3 text-center">Contact</h4>
+	   <p class="mb-2 text-center"><i class="fa fa-map-marker-alt me-3 py-3"></i>123 Street, New York, USA</p>
+	   <p class="mb-2 text-center"><i class="fa fa-phone-alt me-3 py-3"></i>03122435996</p>
+	   <p class="mb-2 text-center"><i class="fa fa-phone-alt me-3 py-3"></i>03122435996</p>
+		 
+	   <p class="mb-2 text-center"><i class="fa fa-envelope me-3 py-3"></i>siddiqui.hadi0104@gmail.com</p>
+	   <p class="mb-2 text-center"><i class="fa fa-envelope me-3 py-3"></i>anasashraf9981@gmail.com</p>
+		 
+	   
+		 </div>
+		 
+	   <div  class="col-lg-3 col-md-6">
+		<h4 class="section-title ff-secondary text-start  text-info fw-normal mb-5 fs-2 text-uppercase text-center">follow us</h4>
+	   
+		<div class="d-flex pt-2 text-center">
+	   <a class="btn btn-outline-light btn-social " href=""><i class="fab fa-instagram"></i></a>
+	   <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+	   <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+	   <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-telegram"></i></a>
+		
+		 </div>
+	   </div>
+	   <p class="footer-company-name text-center">Copyright © 2023 <strong>Keansburg Park</strong> all rights reserved</p>
+	   </div>
+		 </div>
+	   </div>
+	   <div class="container">
+		<div class="copyright">
+	   <div class="row">
+	   <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+		</div>
+		 </div>
+	   </div>
+	   </div>
+	   </div>
+		 <!-- Footer End -->
+</body>
+</html>
+<script type="text/javascript" src="js/main.js"></script>

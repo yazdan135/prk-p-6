@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+     
+</head>
+<body>
+    
+
+    <!-- login and register form -->
+<div class="hero">
+    <div class="form-box">
+        <div class="button-box">
+            <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+        <div class="social-icons">
+            <img src="fb.jpg" alt="">
+            <img src="em.png" alt="">
+            <img src="em.png" alt="">
+    
+        </div>
+        <form id="login" class="input-group">
+      <input type="email" class="input-field" placeholder=" Enter your Email" required>
+      <input type="text" class="input-field" placeholder="Enter password" required>
+<input type="checkbox" class="check-box"><span>Remember password</span>
+<button type="submit" class="submit-btn">login</button>
+ </form>
+
+ <form id="register" class="input-group">
+    <input type="text" class="input-field" placeholder="first Name" required>
+    <input type="email" class="input-field" placeholder="Enter your Email" required>
+
+    <input type="text" class="input-field" placeholder="Enter password" required>
+<input type="checkbox" class="check-box"><span>Remember password</span>
+<button type="submit" class="submit-btn">Rigister</button>
+</form>
+    </div>
+</div>
+<script>
+      var x = document.getElementById("login");
+  var y = document.getElementById("register");
+  var z = document.getElementById("btn");
+  function register(){
+    x.style.left="-400px";
+    y.style.left="50px";
+    z.style.left="110px";}
+
+    function login(){
+    x.style.left="50px";
+    y.style.left="450px";
+    z.style.left="-0px";
+
+  }
+
+
+</script>
+
+
+</body>
+</html>

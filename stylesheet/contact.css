@@ -1,0 +1,184 @@
+*{
+    font-family: montserrat;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(pexels-bella-white-635279.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* logo styling */
+.logo1{
+    color: black;
+}
+
+.logo1,.logop{
+    font-size: 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    
+}
+.logop{
+    color: rgb(255, 145, 0);
+}
+
+ul li{
+    margin: 20px;
+    border-radius: 30px;
+}
+
+ul li:hover{
+    background-color: rgba(141, 209, 236, 0.541);
+   
+
+}
+.section-padding{
+    padding: 100px 0;
+}
+
+
+
+.head1{
+    color: black;
+    text-shadow: 3px 4px 5px pink;}
+.navbar-naz a{
+    font: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.nav-light .nav-brand{
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.nav-light .nav-brand:focus,
+.nav-light .nav-brand:hover{
+    color: black;
+}
+.nav-light .navbar-naz .navbar-link{
+    color: black;
+
+}
+w-100{
+    height: 100vh;
+}
+
+
+@media only screen and (max-width:767px){
+    .navbar-naz{
+        text-align: center;
+    }
+ 
+    
+}
+.plaing{
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    text-transform: uppercase;
+}
+.row .btn:hover{
+    background-color: orangered;
+
+}
+
+/* card img hover */
+
+
+
+
+
+
+/*** Footer ***/
+
+
+.footer .btn.btn-social {
+    margin-right: 10px;
+    width: 30px;
+    height: 35px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    transition: .3s;
+    padding: 10px;
+   
+}
+
+
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 10;
+    
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+    text-decoration: none;
+   
+    
+}
+
+.footer .btn.btn-link:hover {
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+.btn {
+    width: 100%;
+    padding: 10px;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 767px) {
+    form {
+        max-width: 100%;
+    }
+}
+
+
+
+.container {
+    background-color: #ffffff00;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

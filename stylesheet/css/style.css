@@ -1,0 +1,312 @@
+:root{
+    --gra: linear-gradient(45deg, cyan, royalblue);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 98%;
+    background: white;
+    margin: 60px auto;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header ul li{
+    list-style: none;
+    padding: 20px;
+    margin: 10px;
+    float: left;
+    font-size: 20px;
+    border-radius: 35px;
+    /*background: red;*/
+
+}
+header ul li a{
+    color: inherit;
+    text-decoration: none;
+}
+header ul li.active{
+    background: var(--gra);
+}
+header ul li.active a{
+    color: white;
+    font-weight: bold;
+}
+.filter-condition{
+    padding: 20px;
+    height: 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.filter-condition select{
+    width: 120px;
+    padding: 0 0 0 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: purple;
+    background: transparent;
+    cursor: pointer;
+}
+.product-field{
+    padding: 40px 20px;
+}
+.product-field ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-field ul li{
+    list-style: none;
+    width: 23.4%;
+    height: 400px;
+    transition: 0.5s all;
+    background: whitesmoke;
+    /*overflow: hidden;*/
+    border-radius: 20px;
+    padding: 10px;
+    margin: 200px 10px 0 10px;
+    position: relative;
+}
+picture{
+    background: #eee;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    bottom: 41%;
+    width: 75%;
+    height: 85%;
+    border-radius: 50px 20px 0 20px;
+    transform: skewY(40deg);
+    overflow: hidden;
+    box-shadow: 0px 1px 0px #00000020, -1px 0px 0px #ccc;
+}
+picture img {
+  width: 95%;
+  z-index: 1;
+  transform: skewY(-40deg);
+  padding: 25px 0 0 0;
+}
+.detail{
+    width: 100%;
+    height: 100%;
+}
+.detail .icon{
+    width: 30%;
+    height: 55%;
+    padding: 20px 5px;
+}
+.icon span{
+    background: #00000030;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%;
+    margin: 0 0 20px 5px;
+    font-size: 20px;
+    color: white;
+}
+.icon span:hover{
+    background: var(--gra);
+    cursor: pointer;
+}
+.detail > strong{
+    display: inherit;
+    margin: 20px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #555;
+}
+.detail > span{
+    display: inherit;
+    padding: 0 20px;
+    width: 80%;
+}
+.detail small{
+    display: inline-block;
+    padding: 8px 20px;
+    margin: 15px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+.detail small:hover{
+        background: var(--gra);
+        color: white;
+        border-color: cyan;
+}
+li h4{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    font-size: 30px;
+    color: #555;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+
+.logo1{
+    color: black;
+}
+
+.logo1,.logop{
+    font-size: 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    
+}
+.logop{
+    color: rgb(255, 145, 0);
+}
+
+ul li{
+    margin: 20px;
+    border-radius: 30px;
+}
+
+ul li:hover{
+    background-color: rgba(141, 209, 236, 0.541);
+   
+
+}
+.section-padding{
+    padding: 100px 0;
+}
+
+
+
+.head1{
+    color: black;
+    text-shadow: 3px 4px 5px pink;}
+.navbar-naz a{
+    font: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.nav-light .nav-brand{
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.nav-light .nav-brand:focus,
+.nav-light .nav-brand:hover{
+    color: black;
+}
+.nav-light .navbar-naz .navbar-link{
+    color: black;
+
+}
+w-100{
+    height: 100vh;
+}
+
+
+@media only screen and (max-width:767px){
+    .navbar-naz{
+        text-align: center;
+    }
+ 
+    
+}
+.plaing{
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    text-transform: uppercase;
+}
+.row .btn:hover{
+    background-color: orangered;
+
+}
+
+
+
+
+
+.footer .btn.btn-social {
+    margin-right: 10px;
+    width: 30px;
+    height: 35px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    transition: .3s;
+    padding: 10px;
+   
+}
+
+
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 10;
+    
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+    text-decoration: none;
+   
+    
+}
+
+.footer .btn.btn-link:hover {
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+/* Add this to your existing CSS or create a new CSS file */
+
+/* Form styling */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: rgba(255, 255, 255, 0.137);
+    padding: 20px; /* Added padding for better visual appearance */
+    border-radius: 10px; /* Added border-radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(1, 1, 1, 1); /* Box shadow effect */
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 767px) {
+    form {
+        max-width: 100%;
+    }
+}

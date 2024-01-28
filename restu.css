@@ -1,0 +1,305 @@
+*{
+    font-family: montserrat;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: f1fbff;
+}
+
+/* logo styling */
+
+.logop{
+    font-size: 30px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+    
+}
+.logop{
+    color: rgb(255, 145, 0);
+    margin-left: 4px;
+
+}
+ul li{
+    /* margin: 5px; */
+    border-radius: 30px;
+    
+}
+
+ul li:hover{
+    background-color: rgba(141, 209, 236, 0.541);
+   
+
+}
+#login a{
+ text-decoration: none;
+ font-family: sans-serif;
+ 
+}
+.section-padding{
+    padding: 100px 0;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    color: black;
+   
+}
+.carousel-caption p{
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    color: black;
+
+    
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0,7);
+    z-index: 1;
+}
+
+.head1{
+    color: black;
+    text-shadow: 3px 4px 5px pink;}
+.navbar-naz a{
+    font: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.nav-light .nav-brand{
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.nav-light .nav-brand:focus,
+.nav-light .nav-brand:hover{
+    color: black;
+}
+.nav-light .navbar-naz .navbar-link{
+    color: black;
+
+}
+w-100{
+    height: 100vh;
+}
+
+
+
+/* responsive */
+@media only screen and (max-width:1024px){
+    .carousel-item img{
+        height: 100vh;
+}
+}
+
+@media only screen and (max-width:767px){
+    .navbar-naz{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 70px;
+    }
+    .carousel-caption h5{
+        
+        font-size: 32px
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+    .carousel-caption p{
+
+        padding: 10px 15px;
+    }
+    .carousel-item img{
+        height: 100vh;
+    }
+    
+}
+
+
+
+/* card style */
+
+
+.service-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: .5s;
+}
+
+.service-item:hover {
+    background: var(--primary);
+}
+
+.service-item * {
+    transition: .5s;
+}
+
+.service-item:hover * {
+    color: var(--light) !important;
+}
+
+
+
+/*** Hero Header ***/
+.hero-header {
+    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../img/bg-hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-header img {
+    animation: imgRotate 50s linear infinite;
+}
+
+@keyframes imgRotate { 
+    100% { 
+        transform: rotate(360deg); 
+    } 
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: rgba(255, 255, 255, .5);
+}
+
+
+/*** Section Title ***/
+.section-title {
+    position: relative;
+    display: inline-block;
+}
+
+.section-title::before {
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    top: 50%;
+    left: -55px;
+    margin-top: -1px;
+    background: var(--primary);
+}
+
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    top: 50%;
+    right: -55px;
+    margin-top: -1px;
+    background: var(--primary);
+}
+
+.section-title.text-start::before,
+.section-title.text-end::after {
+    display: none;
+}
+
+/* about img :hover */
+
+.inner{
+    overflow: hidden;
+
+    
+}
+.inner img{
+    transition:all 1.s ease-in-out;
+}
+.inner:hover,img{
+    transform: scale(1.2);
+    color: blue;
+}
+
+
+/* card inner1 hover img hover */
+
+
+.inner1{
+    overflow: hidden;
+
+    
+}
+.inner1 img{
+    transition:all 1.5s ease;
+}
+.inner1:hover img{
+    transform: scale(1.5);
+}
+
+.card-dishes{
+    border-radius: 80px;
+    border: solid black;
+    height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+
+
+/* footer styling  full responsive footer and we made   social link hover  & also social icon hover*/
+
+.footer .btn.btn-social {
+    margin-right: 10px;
+    width: 30px;
+    height: 35px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+
+    padding: 10px;
+   
+}
+
+
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    /* padding: 10px; */
+    
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+    text-decoration: none;
+   
+    
+}
+
+.footer .btn.btn-link:hover {
+    letter-spacing: 1px;
+    box-shadow: none;
+    background-color: rgba(255, 115, 0, 0.897);
+}
+
+
+
+/* end footer styling */
+
